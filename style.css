@@ -1,0 +1,98 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff5ea;
+    /* Color crema para el fondo */
+}
+
+.container {
+    max-width: 800px;
+    margin: 10px auto;
+    background-color: #fcefe0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+header {
+    background-color: #ebad9f;
+    /* Marrón claro */
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Cursive Font', cursive;
+    font-style: italic;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+main {
+    padding: 20px;
+}
+
+.message {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #d2aa5c;/* Línea dorada */
+    padding-bottom: 10px;
+    text-align: center;
+    
+}
+
+.bajador {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #d2aa5c;/* Línea dorada */
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: 'Cursive Font', cursive;
+    height: 100vh;
+    
+}
+
+.message img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+
+.message img {
+    max-width: 100%;
+    max-height: 250px;
+    object-fit: contain;
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9); 
+}
+
+.message p {
+    margin-top: 10px;
+    /* Espaciado entre imágenes y texto */
+    font-family: 'Cursive Font', cursive;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #E19C8D;
+    /* Marrón claro */
+    color: #fff;
+    font-family: 'Cursive Font', cursive;
+    font-style: italic;
+}
+
+/* Media query para pantallas más pequeñas, como la del iPhone X */
+@media screen and (max-width: 385px) {
+    header {
+        font-size: 13px; /* Tamaño de fuente más pequeño */
+    }
+
+    .message img {
+        max-height: 150px; /* Altura máxima reducida para imágenes */
+    }
+
+    .message p {
+        font-size: 15px; /* Tamaño de fuente más pequeño para el texto */
+    }
+}
